@@ -1,11 +1,35 @@
+@use "./variables" as *;
+@use "./fonts" as *;
+@use "./mixins" as *;
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
 }
+html {
+  font-size: 100%;
+  font-family: "Avenir Next", Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav {
+  background-color: $bandsite-black;
+  color: $white;
+}
 
 .nav__logo {
-  background-color: #323232;
-  height: 20px;
-  width: 120px;
+  display: flex;
+  flex-direction: column;
+  color: $white;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold 700px;
+}
+
+.nav__item1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav__item2 {
+  display: flex;
+  flex-direction: row;
 }
