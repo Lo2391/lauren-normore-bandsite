@@ -108,43 +108,55 @@ p {
   color: #323232;
   font-size: 24px;
   line-height: 32px;
-  font-weight: 700px;
+  font-weight: bold 700px;
+  padding-bottom: 12px;
 }
 
 .band-image-1 {
   width: 100%;
+  padding-bottom: 12px;
 }
 
 .band-image-2 {
   width: 100%;
+  padding-bottom: 12px;
 }
 
 .band-image-3 {
   width: 100%;
+  padding-bottom: 12px;
 }
 
 .band-image-4 {
   width: 100%;
+  padding-bottom: 12px;
 }
 
 .band-image-5 {
   width: 100%;
+  padding-bottom: 12px;
 }
 
 .band-image-6 {
   width: 100%;
+  padding-bottom: 12px;
 }
 
 .band-image-7 {
   width: 100%;
+  padding-bottom: 12px;
 }
 
 .band-image-8 {
   width: 100%;
+  padding-bottom: 12px;
 }
 
 .band-image-9 {
   width: 100%;
+  padding-bottom: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 footer {
@@ -153,32 +165,54 @@ footer {
 
 .social__contact {
   color: #ffffff;
+  font-size: 25px;
+  padding-top: 25px;
+  padding-left: 12px;
+}
+
+.instagram__icon {
+  padding-left: 12px;
+  padding-right: 20px;
+}
+
+.facebook__icon {
+  padding-right: 20px;
 }
 
 .name {
   color: #ffffff;
+  padding-left: 12px;
 }
 
 .organization {
   color: #ffffff;
+  padding-left: 12px;
 }
 
 .occupation {
   color: #ffffff;
+  padding-left: 12px;
 }
 
 .address {
   color: #ffffff;
+  padding-left: 12px;
 }
 
 .email {
   color: #ffffff;
+  padding-left: 12px;
 }
 
 .title {
   color: #ffffff;
+  font-size: 35px;
+  padding-left: 10px;
 }
 
 .rights-reserved {
   color: #ffffff;
+  font-size: 12px;
+  padding-bottom: 20px;
+  padding-left: 12px;
 }/*# sourceMappingURL=bio.css.map */
