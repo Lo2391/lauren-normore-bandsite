@@ -38,7 +38,7 @@ html {
   color: #ffffff;
   font-size: 0px;
   line-height: 32px;
-  font-weight: bold 700px;
+  font-weight: 700;
   padding-top: 10px;
   padding-left: 20px;
   padding-bottom: 10px;
@@ -59,20 +59,20 @@ html {
   color: #ffffff;
 }
 
-.hero-image {
+.hero__image {
+  background-image: url(../assets/images/hero-bio.jpg);
   width: 100%;
 }
 
-.hero-logo {
-  text-align: left;
-  color: #323232;
+.hero__text {
+  color: #ffffff;
 }
 
 .band {
   color: #323232;
   font-size: 24px;
   line-height: 32px;
-  font-weight: 700px;
+  font-weight: 700;
 }
 
 .band-image {
@@ -83,7 +83,7 @@ html {
   color: #323232;
   font-size: 18px;
   line-height: 20px;
-  font-weight: 600px;
+  font-weight: 600;
 }
 
 h3 {
@@ -97,7 +97,7 @@ p {
   color: #323232;
   font-size: 15px;
   line-height: 19px;
-  font-weight: 500px;
+  font-weight: 500;
 }
 
 .gallery {
@@ -108,7 +108,7 @@ p {
   color: #323232;
   font-size: 24px;
   line-height: 32px;
-  font-weight: bold 700px;
+  font-weight: 700;
   padding-bottom: 12px;
 }
 
@@ -206,8 +206,9 @@ footer {
 
 .title {
   color: #ffffff;
-  font-size: 35px;
+  font-size: 30px;
   padding-left: 10px;
+  font-weight: lighter;
 }
 
 .rights-reserved {
