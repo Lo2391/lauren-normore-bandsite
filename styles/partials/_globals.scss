@@ -40,11 +40,17 @@ html {
   flex-direction: row-reverse;
   text-decoration: none;
   color: $white;
+  padding-right: 10px;
 }
 
 .hero__image {
   background-image: url(../assets/images/hero-bio.jpg);
   width: 100%;
+  height: 10rem;
+  background-color: $bandsite-black;
+  opacity: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero__text {
@@ -56,6 +62,7 @@ html {
   font-size: 24px;
   line-height: 32px;
   font-weight: 700;
+  padding-top: 20px;
 }
 
 .band-image {
@@ -144,6 +151,7 @@ p {
 
 footer {
   background-color: $bandsite-black;
+  width: 100%;
 }
 
 .social__contact {
@@ -198,4 +206,144 @@ footer {
   font-size: 12px;
   padding-bottom: 20px;
   padding-left: 12px;
+}
+
+.nav {
+  background-color: $bandsite-black;
+  color: $white;
+  &__logo {
+    background-color: $bandsite-black;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    color: $white;
+    font-size: 0px;
+    line-height: 32px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+
+    @include tablet {
+      min-width: 768px $tablet-breakpoint;
+    }
+    @include desktop {
+      min-width: 1280px $desk-breakpoint;
+    }
+  }
+  &__item1 {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: $white;
+
+    @include tablet {
+      min-width: 768px $tablet-breakpoint;
+    }
+    @include desktop {
+      min-width: 1280px $desk-breakpoint;
+    }
+  }
+}
+
+.footer {
+  background-color: $bandsite-black;
+  width: 100%;
+  &__contact {
+    color: $white;
+    font-size: 25px;
+    padding-top: 25px;
+    padding-left: 12px;
+    @include tablet {
+      min-width: 768px $tablet-breakpoint;
+    }
+    @include desktop {
+      min-width: 1280px $desk-breakpoint;
+    }
+  }
+  &__icon {
+    padding-left: 12px;
+    padding-right: 20px;
+    @include tablet {
+      min-width: 768px $tablet-breakpoint;
+    }
+    @include desktop {
+      min-width: 1280px $desk-breakpoint;
+    }
+  }
+  &__name {
+    color: $white;
+    padding-left: 12px;
+    @include tablet {
+      min-width: 768px $tablet-breakpoint;
+    }
+    @include desktop {
+      min-width: 1280px $desk-breakpoint;
+    }
+  }
+  &__organization {
+    color: $white;
+    padding-left: 12px;
+    @include tablet {
+      min-width: 768px $tablet-breakpoint;
+    }
+    @include desktop {
+      min-width: 1280px $desk-breakpoint;
+    }
+  }
+  &__occupation {
+    color: $white;
+    padding-left: 12px;
+    @include tablet {
+      min-width: 768px $tablet-breakpoint;
+    }
+    @include desktop {
+      min-width: 1280px $desk-breakpoint;
+    }
+  }
+  &__address {
+    color: $white;
+    padding-left: 12px;
+    @include tablet {
+      min-width: 768px $tablet-breakpoint;
+    }
+    @include desktop {
+      min-width: 1280px $desk-breakpoint;
+    }
+  }
+  &__email {
+    color: $white;
+    padding-left: 12px;
+    @include tablet {
+      min-width: 768px $tablet-breakpoint;
+    }
+    @include desktop {
+      min-width: 1280px $desk-breakpoint;
+    }
+  }
+  &__title {
+    color: $white;
+    font-size: 30px;
+    padding-left: 10px;
+    font-weight: lighter;
+    @include tablet {
+      min-width: 768px $tablet-breakpoint;
+    }
+    @include desktop {
+      min-width: 1280px $desk-breakpoint;
+    }
+  }
+  &__reserved {
+    color: $white;
+    font-size: 12px;
+    padding-bottom: 20px;
+    padding-left: 12px;
+    @include tablet {
+      min-width: 768px $tablet-breakpoint;
+    }
+    @include desktop {
+      min-width: 1280px $desk-breakpoint;
+    }
+  }
 }

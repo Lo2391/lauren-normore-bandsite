@@ -1,3 +1,230 @@
-@use "./partials/globals";
-@use "./partials/mixins" as *;
-@use "./partials/variables" as *;
+@use "./variables" as *;
+@use "./fonts" as *;
+@use "./mixins" as *;
+
+.section {
+  &__image {
+    background-color: $bandsite-black;
+    width: 100%;
+    color: $white;
+    font-size: 25px;
+    padding-top: 25px;
+    padding-left: 12px;
+    @include tablet {
+      min-width: 768px $tablet-breakpoint;
+    }
+    @include desktop {
+      min-width: 1280px $desk-breakpoint;
+    }
+  }
+  &__text {
+    color: $white;
+    @include tablet {
+      min-width: 768px $tablet-breakpoint;
+    }
+    @include desktop {
+      min-width: 1280px $desk-breakpoint;
+    }
+  }
+}
+
+.band {
+  color: $bandsite-black;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  padding-top: 20px;
+  @include tablet {
+    min-width: 768px $tablet-breakpoint;
+  }
+  @include desktop {
+    min-width: 1280px $desk-breakpoint;
+  }
+  &__image {
+    width: 100%;
+  }
+  @include tablet {
+    min-width: 768px $tablet-breakpoint;
+  }
+  @include desktop {
+    min-width: 1280px $desk-breakpoint;
+  }
+}
+
+.quote {
+  color: $bandsite-black;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
+  @include tablet {
+    min-width: 768px $tablet-breakpoint;
+  }
+  @include desktop {
+    min-width: 1280px $desk-breakpoint;
+  }
+}
+
+.quote {
+  color: $bandsite-black;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
+  @include tablet {
+    min-width: 768px $tablet-breakpoint;
+  }
+  @include desktop {
+    min-width: 1280px $desk-breakpoint;
+  }
+}
+
+h3 {
+  color: $bandsite-black;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  @include tablet {
+    min-width: 768px $tablet-breakpoint;
+  }
+  @include desktop {
+    min-width: 1280px $desk-breakpoint;
+  }
+}
+
+p {
+  color: $bandsite-black;
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 500;
+  @include tablet {
+    min-width: 768px $tablet-breakpoint;
+  }
+  @include desktop {
+    min-width: 1280px $desk-breakpoint;
+  }
+}
+
+.gallery {
+  &__text {
+    background-color: $alabaster;
+  }
+  @include tablet {
+    min-width: 768px $tablet-breakpoint;
+  }
+  @include desktop {
+    min-width: 1280px $desk-breakpoint;
+  }
+  &__text {
+    color: $bandsite-black;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    padding-bottom: 12px;
+  }
+  @include tablet {
+    min-width: 768px $tablet-breakpoint;
+  }
+  @include desktop {
+    min-width: 1280px $desk-breakpoint;
+  }
+
+  &__image-1 {
+    width: 100%;
+    padding-bottom: 12px;
+    @include tablet {
+      min-width: 768px $tablet-breakpoint;
+    }
+    @include desktop {
+      min-width: 1280px $desk-breakpoint;
+    }
+  }
+
+  &__image-2 {
+    width: 100%;
+    padding-bottom: 12px;
+    @include tablet {
+      min-width: 768px $tablet-breakpoint;
+    }
+    @include desktop {
+      min-width: 1280px $desk-breakpoint;
+    }
+  }
+
+  &__image-3 {
+    width: 100%;
+    padding-bottom: 12px;
+    @include tablet {
+      min-width: 768px $tablet-breakpoint;
+    }
+    @include desktop {
+      min-width: 1280px $desk-breakpoint;
+    }
+  }
+
+  &__image-4 {
+    width: 100%;
+    padding-bottom: 12px;
+    @include tablet {
+      min-width: 768px $tablet-breakpoint;
+    }
+    @include desktop {
+      min-width: 1280px $desk-breakpoint;
+    }
+  }
+
+  &__image-5 {
+    width: 100%;
+    padding-bottom: 12px;
+    @include tablet {
+      min-width: 768px $tablet-breakpoint;
+    }
+    @include desktop {
+      min-width: 1280px $desk-breakpoint;
+    }
+  }
+
+  &__image-6 {
+    width: 100%;
+    padding-bottom: 12px;
+    @include tablet {
+      min-width: 768px $tablet-breakpoint;
+    }
+    @include desktop {
+      min-width: 1280px $desk-breakpoint;
+    }
+  }
+
+  &__image-7 {
+    width: 100%;
+    padding-bottom: 12px;
+    @include tablet {
+      min-width: 768px $tablet-breakpoint;
+    }
+    @include desktop {
+      min-width: 1280px $desk-breakpoint;
+    }
+  }
+
+  &__image-8 {
+    width: 100%;
+    padding-bottom: 12px;
+    @include tablet {
+      min-width: 768px $tablet-breakpoint;
+    }
+    @include desktop {
+      min-width: 1280px $desk-breakpoint;
+    }
+  }
+
+  &__image-9 {
+    width: 100%;
+    padding-bottom: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    @include tablet {
+      min-width: 768px $tablet-breakpoint;
+    }
+    @include desktop {
+      min-width: 1280px $desk-breakpoint;
+    }
+  }
+}
